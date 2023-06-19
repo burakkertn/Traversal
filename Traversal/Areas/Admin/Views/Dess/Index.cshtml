@@ -1,0 +1,54 @@
+﻿@using EntityLayer.Entities
+@model List<Des>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Tur Rotaları</h1>
+<div>
+<table class="table table-boreded">
+    <tr>
+        <td> # </td>
+         <td> Şehir </td>
+          <td> Fiyat </td>
+           <td> Kapasite </td>
+            <td> Sitede Gör </td>
+             <td> Sil </td>
+              <td> Güncelle </td>
+              
+
+    </tr>
+
+    @foreach (var item in Model)
+    {  
+        <tr>
+
+        <td>  @item.Id </td>
+        <td>  @item.City </td>
+        <td>  @item.Price </td>
+        <td>  @item.Capacity </td>
+        <td> <a href="/Des/DesDetay/@item.Id" class="btn btn-outline-info">Sitede Gör</a> </td>
+        <td> <a href="/Admin/Dess/DeleteDes/@item.Id" class="btn btn-outline-danger">Sil</a>  </td>
+        <td><a href="/Admin/Dess/UpdateDes/@item.Id" class="btn btn-outline-success">Güncelle</a>   </td>
+           
+    </tr>
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+</table>
+
+  <a href="/Admin/Dess/AddDes" class="btn btn-outline-success">Yeni  Tur Ekle</a>
+
+</div>

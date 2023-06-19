@@ -1,0 +1,70 @@
+﻿@model EntityLayer.Entities.Des
+@{
+    ViewData["Title"] = "AddDes";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Yeni Takım Arkadaşı Kaydı</h4>
+                 
+                  <form class="forms-sample" method="post" >
+                    <div class="form-group">
+                      <label for="exampleInputName1">Ülke</label>
+@*                      <span asp-validation-for="c" class="text-danger"></span>
+*@                      <input type="text" class="form-control" id="exampleInputName1" asp-for="City"  >
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+
+                    <div class="form-group">
+                      <label for="exampleInputEmail3">Gün</label>
+@*                       <span asp-validation-for="Title" class="text-danger"></span>
+*@                      <input type="text" class="form-control"  asp-for="DayNight" >
+                      @*Required(ErrorMessage = "Bu alanı boş geçmeyiniz")*@ 
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+                        <div class="form-group">
+                      <label for="exampleInputEmail3">Fiyat</label>
+@*                       <span asp-validation-for="ResimUrl" class="text-danger"></span>
+*@                      <input type="text" class="form-control"   asp-for="Price" >
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+                    <div class="form-group">
+                      <label for="exampleInputEmail3">Resim</label>
+@*                       <span asp-validation-for="FacebookUrl" class="text-danger"></span>
+*@                      <input type="text" class="form-control"  asp-for="Image" >
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+                        <div class="form-group">
+                      <label for="exampleInputEmail3">Resim 2</label>
+@*                       <span asp-validation-for="InstagramUrl" class="text-danger"></span>
+*@                      <input type="text" class="form-control"   asp-for="Image2" >
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+                        <div class="form-group">
+                      <label for="exampleInputEmail3">Kapasite</label>
+@*                       <span asp-validation-for="TwitterrUrl" class="text-danger"></span>
+*@                      <input type="text" class="form-control" asp-for="Capacity" >
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+                     <div class="form-group">
+                      <label for="exampleInputEmail3">Detay</label>
+@*                       <span asp-validation-for="TwitterrUrl" class="text-danger"></span>
+*@                      <input type="text" class="form-control"   asp-for="Detay1" >
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+                     <div class="form-group">
+                      <label for="exampleInputEmail3">Detay 2</label>
+@*                       <span asp-validation-for="TwitterrUrl" class="text-danger"></span>
+*@                      <input type="text" class="form-control" asp-for="Detay2" >
+                    </div>
+@* ------------------------------------------------------------------------------------------------------------------------------------------------------------*@
+
+                  <br />
+                   
+                    <button type="submit" class="btn btn-primary me-2">Kaydet</button>
+                  </form>
+                </div>
+              </div>
+            </div>
