@@ -9,7 +9,7 @@
 <p>-Şifremi Unuttum Sayfası</p>
 <p>-404 Sayfası</p>
 
-<h1>Proje'de kullanılan Projeler</h1>
+<h1>Proje'de kullanılan Teknolojiler</h1>
 <p>-.NET 6.0</p>
 <p>-DTO</p>
 <p>-API</p>
@@ -18,6 +18,7 @@
 <p>-UnitofWork</p>
 <p>-MediatR</p>
 <p>-Ajax</p>
+<p>-MsSql</p>
   
 # Görseller
 
