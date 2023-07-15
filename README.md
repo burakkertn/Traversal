@@ -1,11 +1,11 @@
 
 <h1>Kullanılan Arayüzler</h1>
 
-<p>-Anasayfa</p>
+<p>-UI</p>
 <p>-Admin paneli</p>
 <p>-Üye Paneli</p>
 <p>-Üye Ol Sayfası</p>
-<p>Giriş Yap Sayfası</p>
+<p>Login Paneli</p>
 <p>-Şifremi Unuttum Sayfası</p>
 <p>-404 Sayfası</p>
 
@@ -22,7 +22,7 @@
   
 # Görseller
 
-## Ana Sayfa
+## UI
 ![UI1](https://github.com/burakkertn/Traversal_P/assets/99614754/fe38ffb2-c3c2-4bbf-a25f-69225fee3f2b)
 
 ![Rotalar](https://github.com/burakkertn/Traversal_P/assets/99614754/b7442456-191f-46e3-8078-99ec1fd8c6f1)
